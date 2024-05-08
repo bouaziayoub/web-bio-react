@@ -1,0 +1,51 @@
+.home-bg img {
+  filter: brightness(0.3);
+  object-fit: cover;
+  height: 90vh;
+  width: 100%;
+  margin: auto;
+}
+
+/* Escribir encima de la imagen */
+
+.texto-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+.texto-bg h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texto-bg p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Animation de movimiento o zoom o algo mas atractevo */
+
+.texto-bg {
+  animation: zoom 10s;
+}
+
+@keyframes zoom {
+  0% {
+    font-size: 40px;
+  }
+  50% {
+    font-size: 50px;
+  }
+  100% {
+    font-size: 55px;
+  }
+}
