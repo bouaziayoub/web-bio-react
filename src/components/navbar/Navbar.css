@@ -1,0 +1,71 @@
+.container-Navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+}
+
+.navbar-scroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container-Navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.container-Navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+.container-Navbar li a:hover {
+  background-color: #111;
+}
+
+/* In react to  use the class active i just need the import NabLink from react */
+.container-Navbar .active {
+  background-color: #b9c234;
+}
+
+.container-Navbar .logo {
+  padding-top: 10px;
+}
+
+.container-Navbar .logo img {
+  width: 35px;
+}
+
+/* Info contact */
+
+.container-info-contact {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #828282;
+  color: white;
+}
+.info-contact p{
+  padding: 0.2rem;
+}
+.contact-nav{
+  display: flex;
+  margin-right: 5rem;
+}
+
+.container-info-contact .contact-nav svg{
+  margin: auto;
+}
+
+.container-info-contact:last-child{
+  padding-right: 14.5rem;
+}

@@ -6,8 +6,9 @@ import About from "./views/About";
 import Home from "./views/home/Home";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 
+import "./App.css";
 
 const navbarTexts = {
   en: {

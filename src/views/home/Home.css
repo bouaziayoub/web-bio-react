@@ -1,7 +1,7 @@
-.home-bg img {
+.home-bg {
   filter: brightness(0.3);
   object-fit: cover;
-  height: 90vh;
+  height: 200vh;
   width: 100%;
   margin: auto;
 }
@@ -17,7 +17,7 @@
   font-size: 50px;
   font-weight: bold;
   text-align: center;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .texto-bg h1 {
@@ -49,3 +49,4 @@
     font-size: 55px;
   }
 }
+
