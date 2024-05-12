@@ -9,6 +9,7 @@ import NotFound from "./views/NotFound";
 import Navbar from "./components/navbar/Navbar";
 
 import "./App.css";
+import Footer from "./components/footer/Footer";
 
 const navbarTexts = {
   en: {
@@ -61,6 +62,12 @@ function App() {
         <Route path="*" element={<Contact />} />
         <Route element={<NotFound />} />
       </Routes>
+      <Footer
+        homeText={navbarText.home}
+        aboutText={navbarText.about}
+        servicesText={navbarText.services}
+        notFoundText={navbarText.notFound}
+      />
     </Router>
   );
 }
