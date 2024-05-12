@@ -1,0 +1,23 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f00;
+  background-color: #000;
+  text-align: center;
+  flex-direction: column;
+  margin: 3rem auto;
+  border-radius: 10px;
+}
+
+.notFound a {
+    color: #fff;
+}
+
+.notFound a:hover {
+    color: #b9c234;
+}

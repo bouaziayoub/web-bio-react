@@ -21,7 +21,7 @@ const navbarTexts = {
   es: {
     home: "Inicio",
     about: "Acerca de",
-    services: "Servicios",
+    services: "services",
     notFound: "404 Página No Encontrada",
   },
 };
@@ -53,14 +53,15 @@ function App() {
         homeText={navbarText.home}
         aboutText={navbarText.about}
         servicesText={navbarText.services}
+        contactText={navbarText.contact}
         notFoundText={navbarText.notFound}
       />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="*" element={<Contact />} />
-        <Route element={<NotFound />} />
+        <Route path="/services" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer
         homeText={navbarText.home}
