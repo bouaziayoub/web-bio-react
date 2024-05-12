@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
@@ -11,7 +11,7 @@ function Navbar({
 }) {
   // Manejar position stily usando el hook useState
   const [position, setPosition] = useState(0);
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       setPosition(window.scrollY);
     };
@@ -52,7 +52,7 @@ function Navbar({
             </p>
           </div>
           <div className="contact-nav">
-            <Link to="/contact">{menuContact}</Link>
+            <NavLink to="/contact">{menuContact}</NavLink>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ function Navbar({
           </div>
           <ul className="nav-menu">
             <li>
-              <NavLink to="/" exact>
+              <NavLink to="/" >
                 {menuHome}
               </NavLink>
             </li>

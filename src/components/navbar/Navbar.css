@@ -13,8 +13,6 @@
 
 .container-Navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -24,7 +22,7 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 50px;
+  padding: 15px 50px;
   text-decoration: none;
 }
 
@@ -68,4 +66,19 @@
 
 .container-info-contact:last-child{
   padding-right: 14.5rem;
+}
+
+.container-info-contact .contact-nav a{
+  color: #b9c234;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.container-info-contact .contact-nav a:hover{
+  color: #fff;
+}
+
+.container-info-contact .contact-nav .active{
+  border-bottom: 3px solid #b9c234;
+  color: white;
 }

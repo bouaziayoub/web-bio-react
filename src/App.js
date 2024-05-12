@@ -46,8 +46,6 @@ function App() {
 
   const navbarText = navbarTexts[userLanguage] || navbarTexts["es"];
 
-
-  
   return (
     <Router>
       <Navbar
