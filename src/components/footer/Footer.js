@@ -20,10 +20,10 @@ function Footer({
           <h4>Web Bio</h4>
         </div>
         <div className="footer-privacy">
-          <div class="privacy">Privacy Policy</div>
-          <div class="conditions">Conditions of Use</div>
-          <div class="cookies">Cookies</div>
-          <div class="location">Location Map</div>
+          <div className="privacy">Privacy Policy</div>
+          <div className="conditions">Conditions of Use</div>
+          <div className="cookies">Cookies</div>
+          <div className="location">Location Map</div>
         </div>
         <div className="footer-nav">
           <div className="footer-ho">
