@@ -197,6 +197,7 @@ function Contact() {
         <div className="location-map">
           <h2>Location</h2>
           <iframe
+            title="Mapa de ubicación"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1496.7057232933887!2d2.16988635!3d41.3868702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f3d8a9f2c1%3A0xeea923befe921c3e!2sPlaza%20de%20Catalu%C3%B1a%2C%20Eixample%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1715628673221!5m2!1ses!2ses"
             width="400"
             height="250"

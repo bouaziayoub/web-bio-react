@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Service from "./views/Service";
-import About from "./views/About";
+import About from "./views/about/About";
 import Home from "./views/home/Home";
 import Contact from "./views/contact/Contact";
-import NotFound from "./views/NotFound";
+import NotFound from "./views/notFound/NotFound";
 import Navbar from "./components/navbar/Navbar";
 
 import "./App.css";
