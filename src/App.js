@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Service from "./views/Service";
+import Service from "./views/ourService/Service";
 import About from "./views/about/About";
 import Home from "./views/home/Home";
 import Contact from "./views/contact/Contact";

@@ -1,0 +1,47 @@
+.services-container {
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  color: #333;
+}
+
+.service-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.service-header h2 {
+  font-size: 40px;
+  color: #333;
+  margin: 40px;
+}
+
+.service-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service {
+  text-align: center;
+  margin: 20px;
+}
+
+.service img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.service-content {
+  margin-top: 10px;
+}
+
+.service-content h3 {
+  font-size: 20px;
+}
+
+.service-content p {
+  font-size: 16px;
+}

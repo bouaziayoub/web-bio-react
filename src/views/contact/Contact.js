@@ -10,8 +10,8 @@ function Contact() {
   const [emailError, setEmailError] = useState("");
   const [messageError, setMessageError] = useState("");
   const [checkboxError, setCheckboxError] = useState("");
-  const [showForm, setShowForm] = useState(false); // State to toggle form visibility
-  const [buttonText, setButtonText] = useState("Show Form"); // State to change button text [Show Form/Hide Form
+  const [showForm, setShowForm] = useState(false);
+  const [buttonText, setButtonText] = useState("Show Form");
 
   const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
